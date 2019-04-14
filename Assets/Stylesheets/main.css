@@ -1,3 +1,80 @@
 * {
     font-family: Cambria, sans-serif;
 }
+.hero {
+    flex-wrap: wrap;
+flex-direction: column;
+display: flex;
+align-items: center;
+justify-content: center;
+height: 600px;
+width: 100%;
+background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(/assets/images/Bild2.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+}
+
+.hero-heading {
+    font-size: 80px;
+    width: 100%;
+    text-align: center;
+    color: white;
+   }
+   .hero p {
+    font-size: 30px;
+    text-align: center;
+    color: white;
+   }
+   .header {
+     background-color: rgb(31, 33, 36);
+   display: flex;
+   justify-content: space-between;
+   }
+   .nav-list {
+   
+     list-style: none;
+   }
+   .nav-list li {
+     margin: 0 10px 0 0;
+     display: inline;
+   }
+   a {
+    text-decoration: none;
+   }
+   a:visited {
+     color:inherit;
+   }
+   * {
+       color: #504848;
+     font-family: Cambria, sans-serif;
+   }
+   .header a {
+     color: white;
+   }
+   .logo {
+     margin-left: 10px;
+   }
+   .about-me {
+    
+    justify-content: center;
+    display: flex
+   }
+   #col2 {
+       max-width: 50%;
+   }
+   #p1 {
+       padding: 0  40px;
+    font-size: 19px;
+   }
+   #p2 {
+       padding: 0 40px;
+    font-size: 19px;   
+   }
+   body {
+    background-color: floralwhite;
+   }
+   .info p {
+    color: #504848;
+    padding: 0  20%;
+    font-size: 25px;
+   }
